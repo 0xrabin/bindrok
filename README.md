@@ -6,8 +6,9 @@ Bindrok is a shell script that binds shell to  a port then uses ngrok to forward
 
 To do list
 
->Add argument to specify port
->Add argument to specify method of bind
->Add installer
-
+```
+Add argument to specify port
+Add argument to specify method of bind
+Add installer
+```
 
