@@ -1,0 +1,24 @@
+# Plans
+```
+ps aux | grep "perl bp.pl" [ if outputs proceed ]
+else run perl bp.pl 1337
+
+netstat -tuln [ grep for 4040 if outputs dont start ngrok ]
+else start ngrok tcp 1337 in bg
+
+curl ngrok api to get address
+
+print in nc ip port format
+```
+
+
+# Installer
+
+```
+ask for ngrok token
+make directory either in /tmp or in /home/user/
+wget ngrok unzip it delete zip
+run ./ngrok authtoken token
+wget bp.pl
+
+```
